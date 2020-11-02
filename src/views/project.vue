@@ -27,7 +27,7 @@ export default class Home extends Vue {
 
     this.ComOneDataTwo.one = Date.now();
     this.ComOneDataTwo.two = Date.now();
-    this.ComOneDataTwo.onetwo = Date.now();
+    // this.ComOneDataTwo.onetwo = Date.now();
   }
 
   private inputVal = "21";
