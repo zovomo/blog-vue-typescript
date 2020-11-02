@@ -1,9 +1,8 @@
-
 <template>
-  <div class="footer"> 全栈修炼 ©2018 Created by BiaoChenXuYing </div>
+  <div class="footer">全栈修炼 ©2018 Created by BiaoChenXuYing</div>
 </template>
 <script lang="ts">
-import { Vue, Component } from "vue-property-decorator";
+import { Vue, Component, Inject } from "vue-property-decorator";
 
 @Component
 export default class Footer extends Vue {}
@@ -15,4 +14,3 @@ export default class Footer extends Vue {}
   font-weight: bold;
 }
 </style>
-
